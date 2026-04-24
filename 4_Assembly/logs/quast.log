@@ -1,0 +1,61 @@
+/sw/arch/eb/software/QUAST/5.3.0-gfbf-2024a/bin/quast.py assembly.fasta -o /proj/uppmax2026-1-61/nobackup/work/tede0387/Genome-Analysis_V26/4_Assembly/old_flye_chr3_assembly/assembly-evaluation/old_quast --threads 2 --contig-thresholds 0,1000,5000,10000
+
+Version: 5.3.0
+
+System information:
+  OS: Linux-5.14.0-611.41.1.el9_7.x86_64-x86_64-with-glibc2.34 (linux_64)
+  Python version: 3.12.3
+  CPUs number: 96
+
+Started: 2026-04-19 14:40:16
+
+Logging to /proj/uppmax2026-1-61/nobackup/work/tede0387/Genome-Analysis_V26/4_Assembly/old_flye_chr3_assembly/assembly-evaluation/old_quast/quast.log
+
+CWD: /crex/proj/uppmax2026-1-61/nobackup/work/tede0387/Genome-Analysis_V26/4_Assembly/old_flye_chr3_assembly
+Main parameters: 
+  MODE: default, threads: 2, min contig length: 500, min alignment length: 65, min alignment IDY: 95.0, \
+  ambiguity: one, min local misassembly length: 200, min extensive misassembly length: 1000
+
+Contigs:
+  Pre-processing...
+  assembly.fasta ==> assembly
+
+2026-04-19 14:40:34
+Running Basic statistics processor...
+  Contig files: 
+    assembly
+  Calculating N50 and L50...
+    assembly, N50 = 1699411, L50 = 4, auN = 1837728.1, Total length = 17053508, GC % = 41.96, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /proj/uppmax2026-1-61/nobackup/work/tede0387/Genome-Analysis_V26/4_Assembly/old_flye_chr3_assembly/assembly-evaluation/old_quast/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /proj/uppmax2026-1-61/nobackup/work/tede0387/Genome-Analysis_V26/4_Assembly/old_flye_chr3_assembly/assembly-evaluation/old_quast/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /proj/uppmax2026-1-61/nobackup/work/tede0387/Genome-Analysis_V26/4_Assembly/old_flye_chr3_assembly/assembly-evaluation/old_quast/basic_stats/GC_content_plot.pdf
+  Drawing assembly GC content plot...
+    saved to /proj/uppmax2026-1-61/nobackup/work/tede0387/Genome-Analysis_V26/4_Assembly/old_flye_chr3_assembly/assembly-evaluation/old_quast/basic_stats/assembly_GC_content_plot.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2026-04-19 14:40:40
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating PDF with all tables and plots...
+  2 of 2: Creating Icarus viewers...
+Done
+
+2026-04-19 14:40:40
+RESULTS:
+  Text versions of total report are saved to /proj/uppmax2026-1-61/nobackup/work/tede0387/Genome-Analysis_V26/4_Assembly/old_flye_chr3_assembly/assembly-evaluation/old_quast/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /proj/uppmax2026-1-61/nobackup/work/tede0387/Genome-Analysis_V26/4_Assembly/old_flye_chr3_assembly/assembly-evaluation/old_quast/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /proj/uppmax2026-1-61/nobackup/work/tede0387/Genome-Analysis_V26/4_Assembly/old_flye_chr3_assembly/assembly-evaluation/old_quast/report.html
+  PDF version (tables and plots) is saved to /proj/uppmax2026-1-61/nobackup/work/tede0387/Genome-Analysis_V26/4_Assembly/old_flye_chr3_assembly/assembly-evaluation/old_quast/report.pdf
+  Icarus (contig browser) is saved to /proj/uppmax2026-1-61/nobackup/work/tede0387/Genome-Analysis_V26/4_Assembly/old_flye_chr3_assembly/assembly-evaluation/old_quast/icarus.html
+  Log is saved to /proj/uppmax2026-1-61/nobackup/work/tede0387/Genome-Analysis_V26/4_Assembly/old_flye_chr3_assembly/assembly-evaluation/old_quast/quast.log
+
+Finished: 2026-04-19 14:40:41
+Elapsed time: 0:00:24.913731
+NOTICEs: 1; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
