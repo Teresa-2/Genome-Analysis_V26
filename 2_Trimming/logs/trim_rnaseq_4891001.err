@@ -1,0 +1,42 @@
+TrimmomaticPE: Started with arguments:
+ -threads 4 /proj/uppmax2026-1-61/nobackup/work/tede0387/local-project/reads/transcriptomic-data/Control_1_f1.fq.gz /proj/uppmax2026-1-61/nobackup/work/tede0387/local-project/reads/transcriptomic-data/Control_1_r2.fq.gz /proj/uppmax2026-1-61/nobackup/work/tede0387/local-project/2_Trimming/RNA-trimmed-reads/Control_1_R1_paired.fq.gz /proj/uppmax2026-1-61/nobackup/work/tede0387/local-project/2_Trimming/RNA-trimmed-reads/Control_1_R1_unpaired.fq.gz /proj/uppmax2026-1-61/nobackup/work/tede0387/local-project/2_Trimming/RNA-trimmed-reads/Control_1_R2_paired.fq.gz /proj/uppmax2026-1-61/nobackup/work/tede0387/local-project/2_Trimming/RNA-trimmed-reads/Control_1_R2_unpaired.fq.gz ILLUMINACLIP:/sw/arch/eb/software/Trimmomatic/0.39-Java-17/adapters/TruSeq3-PE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 21684383 Both Surviving: 21258413 (98.04%) Forward Only Surviving: 287706 (1.33%) Reverse Only Surviving: 108314 (0.50%) Dropped: 29950 (0.14%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -threads 4 /proj/uppmax2026-1-61/nobackup/work/tede0387/local-project/reads/transcriptomic-data/Control_2_f1.fq.gz /proj/uppmax2026-1-61/nobackup/work/tede0387/local-project/reads/transcriptomic-data/Control_2_r2.fq.gz /proj/uppmax2026-1-61/nobackup/work/tede0387/local-project/2_Trimming/RNA-trimmed-reads/Control_2_R1_paired.fq.gz /proj/uppmax2026-1-61/nobackup/work/tede0387/local-project/2_Trimming/RNA-trimmed-reads/Control_2_R1_unpaired.fq.gz /proj/uppmax2026-1-61/nobackup/work/tede0387/local-project/2_Trimming/RNA-trimmed-reads/Control_2_R2_paired.fq.gz /proj/uppmax2026-1-61/nobackup/work/tede0387/local-project/2_Trimming/RNA-trimmed-reads/Control_2_R2_unpaired.fq.gz ILLUMINACLIP:/sw/arch/eb/software/Trimmomatic/0.39-Java-17/adapters/TruSeq3-PE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 21983448 Both Surviving: 21569820 (98.12%) Forward Only Surviving: 267616 (1.22%) Reverse Only Surviving: 116639 (0.53%) Dropped: 29373 (0.13%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -threads 4 /proj/uppmax2026-1-61/nobackup/work/tede0387/local-project/reads/transcriptomic-data/Control_3_f1.fq.gz /proj/uppmax2026-1-61/nobackup/work/tede0387/local-project/reads/transcriptomic-data/Control_3_r2.fq.gz /proj/uppmax2026-1-61/nobackup/work/tede0387/local-project/2_Trimming/RNA-trimmed-reads/Control_3_R1_paired.fq.gz /proj/uppmax2026-1-61/nobackup/work/tede0387/local-project/2_Trimming/RNA-trimmed-reads/Control_3_R1_unpaired.fq.gz /proj/uppmax2026-1-61/nobackup/work/tede0387/local-project/2_Trimming/RNA-trimmed-reads/Control_3_R2_paired.fq.gz /proj/uppmax2026-1-61/nobackup/work/tede0387/local-project/2_Trimming/RNA-trimmed-reads/Control_3_R2_unpaired.fq.gz ILLUMINACLIP:/sw/arch/eb/software/Trimmomatic/0.39-Java-17/adapters/TruSeq3-PE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 22921737 Both Surviving: 22440698 (97.90%) Forward Only Surviving: 324764 (1.42%) Reverse Only Surviving: 117717 (0.51%) Dropped: 38558 (0.17%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -threads 4 /proj/uppmax2026-1-61/nobackup/work/tede0387/local-project/reads/transcriptomic-data/Heat_treated_42_12h_1_f1.fq.gz /proj/uppmax2026-1-61/nobackup/work/tede0387/local-project/reads/transcriptomic-data/Heat_treated_42_12h_1_r2.fq.gz /proj/uppmax2026-1-61/nobackup/work/tede0387/local-project/2_Trimming/RNA-trimmed-reads/Heat_treated_42_12h_1_R1_paired.fq.gz /proj/uppmax2026-1-61/nobackup/work/tede0387/local-project/2_Trimming/RNA-trimmed-reads/Heat_treated_42_12h_1_R1_unpaired.fq.gz /proj/uppmax2026-1-61/nobackup/work/tede0387/local-project/2_Trimming/RNA-trimmed-reads/Heat_treated_42_12h_1_R2_paired.fq.gz /proj/uppmax2026-1-61/nobackup/work/tede0387/local-project/2_Trimming/RNA-trimmed-reads/Heat_treated_42_12h_1_R2_unpaired.fq.gz ILLUMINACLIP:/sw/arch/eb/software/Trimmomatic/0.39-Java-17/adapters/TruSeq3-PE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 22254075 Both Surviving: 21848773 (98.18%) Forward Only Surviving: 261498 (1.18%) Reverse Only Surviving: 112363 (0.50%) Dropped: 31441 (0.14%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -threads 4 /proj/uppmax2026-1-61/nobackup/work/tede0387/local-project/reads/transcriptomic-data/Heat_treated_42_12h_2_f1.fq.gz /proj/uppmax2026-1-61/nobackup/work/tede0387/local-project/reads/transcriptomic-data/Heat_treated_42_12h_2_r2.fq.gz /proj/uppmax2026-1-61/nobackup/work/tede0387/local-project/2_Trimming/RNA-trimmed-reads/Heat_treated_42_12h_2_R1_paired.fq.gz /proj/uppmax2026-1-61/nobackup/work/tede0387/local-project/2_Trimming/RNA-trimmed-reads/Heat_treated_42_12h_2_R1_unpaired.fq.gz /proj/uppmax2026-1-61/nobackup/work/tede0387/local-project/2_Trimming/RNA-trimmed-reads/Heat_treated_42_12h_2_R2_paired.fq.gz /proj/uppmax2026-1-61/nobackup/work/tede0387/local-project/2_Trimming/RNA-trimmed-reads/Heat_treated_42_12h_2_R2_unpaired.fq.gz ILLUMINACLIP:/sw/arch/eb/software/Trimmomatic/0.39-Java-17/adapters/TruSeq3-PE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 21629229 Both Surviving: 21198577 (98.01%) Forward Only Surviving: 281007 (1.30%) Reverse Only Surviving: 115469 (0.53%) Dropped: 34176 (0.16%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -threads 4 /proj/uppmax2026-1-61/nobackup/work/tede0387/local-project/reads/transcriptomic-data/Heat_treated_42_12h_3_f1.fq.gz /proj/uppmax2026-1-61/nobackup/work/tede0387/local-project/reads/transcriptomic-data/Heat_treated_42_12h_3_r2.fq.gz /proj/uppmax2026-1-61/nobackup/work/tede0387/local-project/2_Trimming/RNA-trimmed-reads/Heat_treated_42_12h_3_R1_paired.fq.gz /proj/uppmax2026-1-61/nobackup/work/tede0387/local-project/2_Trimming/RNA-trimmed-reads/Heat_treated_42_12h_3_R1_unpaired.fq.gz /proj/uppmax2026-1-61/nobackup/work/tede0387/local-project/2_Trimming/RNA-trimmed-reads/Heat_treated_42_12h_3_R2_paired.fq.gz /proj/uppmax2026-1-61/nobackup/work/tede0387/local-project/2_Trimming/RNA-trimmed-reads/Heat_treated_42_12h_3_R2_unpaired.fq.gz ILLUMINACLIP:/sw/arch/eb/software/Trimmomatic/0.39-Java-17/adapters/TruSeq3-PE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 22229513 Both Surviving: 21840506 (98.25%) Forward Only Surviving: 246031 (1.11%) Reverse Only Surviving: 115112 (0.52%) Dropped: 27864 (0.13%)
+TrimmomaticPE: Completed successfully
