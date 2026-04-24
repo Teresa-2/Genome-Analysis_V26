@@ -1,0 +1,61 @@
+/home/bio/miniconda3/envs/quast_env/bin/quast.py pilon_output/polished_assembly.fasta --threads 8 --eukaryote --output-dir quast_results
+
+Version: 5.2.0
+
+System information:
+  OS: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39 (linux_64)
+  Python version: 3.12.3
+  CPUs number: 8
+
+Started: 2026-04-21 23:03:57
+
+Logging to /home/bio/pilon/quast_results/quast.log
+
+CWD: /home/bio/pilon
+Main parameters: 
+  MODE: default, threads: 8, eukaryotic: true, min contig length: 500, min alignment length: 65, \
+  min alignment IDY: 95.0, ambiguity: one, min local misassembly length: 200, min extensive misassembly length: 1000
+
+Contigs:
+  Pre-processing...
+  pilon_output/polished_assembly.fasta ==> polished_assembly
+
+2026-04-21 23:03:58
+Running Basic statistics processor...
+  Contig files: 
+    polished_assembly
+  Calculating N50 and L50...
+    polished_assembly, N50 = 1702686, L50 = 4, auN = 1840179.6, Total length = 17081361, GC % = 41.79, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /home/bio/pilon/quast_results/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /home/bio/pilon/quast_results/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /home/bio/pilon/quast_results/basic_stats/GC_content_plot.pdf
+  Drawing polished_assembly GC content plot...
+    saved to /home/bio/pilon/quast_results/basic_stats/polished_assembly_GC_content_plot.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2026-04-21 23:03:59
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating PDF with all tables and plots...
+  2 of 2: Creating Icarus viewers...
+Done
+
+2026-04-21 23:03:59
+RESULTS:
+  Text versions of total report are saved to /home/bio/pilon/quast_results/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/bio/pilon/quast_results/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /home/bio/pilon/quast_results/report.html
+  PDF version (tables and plots) is saved to /home/bio/pilon/quast_results/report.pdf
+  Icarus (contig browser) is saved to /home/bio/pilon/quast_results/icarus.html
+  Log is saved to /home/bio/pilon/quast_results/quast.log
+
+Finished: 2026-04-21 23:03:59
+Elapsed time: 0:00:01.930511
+NOTICEs: 1; WARNINGs: 1; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
