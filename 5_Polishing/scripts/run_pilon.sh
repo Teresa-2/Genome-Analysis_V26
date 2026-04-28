@@ -12,17 +12,17 @@ OUTDIR="pilon_output"
 mkdir -p "$OUTDIR"
 
 # ── 1. Assembly indexing ────────────────────────────────────────────────────
-#echo "[$(date)] 1. Assembly indexing"
-#bwa index "$ASSEMBLY"
+echo "[$(date)] 1. Assembly indexing"
+bwa index "$ASSEMBLY"
 
 # ── 2. Illumina reads alignment ─────────────────────────────────────────────
-#echo "[$(date)] 2. Illumina reads alignment"
-#bwa mem -t "$THREADS" "$ASSEMBLY" "$R1" "$R2" \
-#    | samtools sort -@ "$THREADS" -o illumina_sorted.bam
+echo "[$(date)] 2. Illumina reads alignment"
+bwa mem -t "$THREADS" "$ASSEMBLY" "$R1" "$R2" \
+    | samtools sort -@ "$THREADS" -o illumina_sorted.bam
 
 # ── 3. BAM indexing ─────────────────────────────────────────────────────────
-#echo "[$(date)] 3. BAM indexing"
-#samtools index illumina_sorted.bam
+echo "[$(date)] 3. BAM indexing"
+samtools index illumina_sorted.bam
 
 # ── 4. Pilon polishing ───────────────────────────────────────────────────────
 echo "[$(date)] 4. Pilon has started"
