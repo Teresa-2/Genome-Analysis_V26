@@ -1,4 +1,4 @@
-quast.py \
+quast.py \ # local execution
     pilon_output/polished_assembly.fasta \
     --threads 8 \
     --eukaryote \
