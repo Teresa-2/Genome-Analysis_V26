@@ -1,12 +1,12 @@
 #!/bin/bash
 
-# ── Percorsi ────────────────────────────────────────────────────────────────
+# ── PATHS ────────────────────────────────────────────────────────────────
 ASSEMBLY="assembly.fasta"
 R1="chr3_illumina_R1.fastq.gz"
 R2="chr3_illumina_R2.fastq.gz"
 
-THREADS=8   # usa tutti i core disponibili automaticamente
-MEM="12g"          # adatta alla tua RAM (lascia 4-8g al sistema)
+THREADS=8   # locally executed
+MEM="12g"          # locally executed
 OUTDIR="pilon_output"
 
 mkdir -p "$OUTDIR"
