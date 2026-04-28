@@ -33,5 +33,6 @@ java -Xmx"$MEM" -jar /home/bio/miniconda3/envs/pilon_env/share/pilon-1.24-0/pilo
     --outdir "$OUTDIR" \
     --changes \
     --vcf \
+    --threads "$THREADS"
 
 echo "[$(date)] 5. Pilon finished. Output in: $OUTDIR"
