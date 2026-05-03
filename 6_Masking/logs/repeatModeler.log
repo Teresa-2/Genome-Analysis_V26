@@ -1,0 +1,127 @@
+RepeatModeler Version 2.0.7
+===========================
+Using output directory = /home/bio/2-repeatMasker/library_LTR/RM_371332.SatApr251154242026
+Search Engine = rmblast 2.14.1+
+Threads = 8
+Dependencies: TRF 4.10, RECON , RepeatScout 1.0.7, RepeatMasker 4.2.1, RepeatAfterMe 0.0.7
+LTR Structural Analysis: Enabled ( GenomeTools 1.6.5, LTR_Retriever ,
+                                   Ninja 1.00-cluster_only, MAFFT 7.525,
+                                   CD-HIT 4.8.1 )
+Random Number Seed: 1777110864
+Database = /home/bio/2-repeatMasker/library_LTR/Niphotrichum_japonicum 
+  - Sequences = 57
+  - Bases = 17081361
+Storage Throughput = excellent ( 1612.28 MB/s )
+
+
+RepeatModeler Round # 1
+========================
+Searching for Repeats
+ -- Sampling from the database...
+   - Gathering up to 40000000 bp
+   - Final Sample Size = 17081279 bp ( 17081279 non ambiguous )
+   - Num Contigs Represented = 57
+   - Sequence extraction : 00:00:01 (hh:mm:ss) Elapsed Time
+ -- Running RepeatScout on the sequences...
+   - RepeatScout: Running build_lmer_table ( l = 14, min = 10 )..
+   - RepeatScout: Running RepeatScout.. : 105 raw families identified
+   - RepeatScout: Running filtering stage.. 99 families remaining
+   - RepeatScout: 00:00:26 (hh:mm:ss) Elapsed Time
+   - Collecting repeat instances...
+   - Refining 98 families... 00:00:44 (hh:mm:ss) Elapsed Time
+   - Redundant Families and Large Satellite Filtering.. 
+      : 1 satellite(s), 19 contained, found in 00:00:01 (hh:mm:ss) Elapsed Time
+Family Refinement: 00:00:01 (hh:mm:ss) Elapsed Time
+Round Time: 00:01:13 (hh:mm:ss) Elapsed Time : 78 families discovered.
+
+
+RepeatModeler Round # 2
+========================
+Searching for Repeats
+ -- Sampling from the database...
+   - Gathering up to 10000000 bp
+   - Sequence extraction : 00:00:01 (hh:mm:ss) Elapsed Time
+ -- Running TRFMask on the sequence...
+   - TRFMask time 00:00:07 (hh:mm:ss) Elapsed Time
+ -- Masking repeats from the previous rounds...
+       2607 repeats masked totaling 1692018 bp(s).
+   - TE Masking time 00:00:14 (hh:mm:ss) Elapsed Time
+ -- Sample Stats:
+       Sample Size 10011206 bp
+       Num Contigs Represented = 48
+       Non ambiguous bp:
+             Initial: 10011206 bp
+             After Masking: 8243222 bp
+             Masked: 17.66 % 
+ -- Input Database Coverage: 10011206 bp out of 17081361 bp ( 58.61 % )
+Sampling Time: 00:00:22 (hh:mm:ss) Elapsed Time
+Running all-by-other comparisons...
+  - Total Comparisons = 36856
+Comparison Time: 00:03:09 (hh:mm:ss) Elapsed Time, 24029 HSPs Collected
+Number of families returned by RECON: 1467
+Round Time: 00:03:43 (hh:mm:ss) Elapsed Time : 23 families discovered.
+   - Increasing sample size to include end piece now = 37081361
+
+
+RepeatModeler Round # 3
+========================
+Searching for Repeats
+ -- Sampling from the database...
+   - Gathering up to 37081361 bp
+   - Sequence extraction : 00:00:01 (hh:mm:ss) Elapsed Time
+ -- Running TRFMask on the sequence...
+   - TRFMask time 00:00:05 (hh:mm:ss) Elapsed Time
+ -- Masking repeats from the previous rounds...
+       2872 repeats masked totaling 1388920 bp(s).
+   - TE Masking time 00:00:10 (hh:mm:ss) Elapsed Time
+ -- Sample Stats:
+       Sample Size 7070031 bp
+       Num Contigs Represented = 31
+       Non ambiguous bp:
+             Initial: 7070031 bp
+             After Masking: 5634514 bp
+             Masked: 20.30 % 
+ -- Input Database Coverage: 17081237 bp out of 17081361 bp ( 100.00 % )
+Sampling Time: 00:00:17 (hh:mm:ss) Elapsed Time
+Running all-by-other comparisons...
+  - Total Comparisons = 17391
+Comparison Time: 00:01:36 (hh:mm:ss) Elapsed Time, 4496 HSPs Collected
+Number of families returned by RECON: 851
+Round Time: 00:01:55 (hh:mm:ss) Elapsed Time : 7 families discovered.
+
+RepeatScout/RECON discovery complete: 108 families found
+
+
+LTR Structural Analysis
+=======================
+  -- Clustering results with previous rounds...
+       - 108 RepeatScout/RECON families
+       - 34 LTRPipeline families
+       - Removed 10 redundant LTR families.
+       - Final family count = 132
+LTRPipeline Time: 00:01:20 (hh:mm:ss) Elapsed Time
+
+
+#
+# RepeatClassifier
+#
+# Version 2.0.7
+# Threads: 8
+# Current Working Directory: /home/bio/2-repeatMasker/library_LTR/RM_371332.SatApr251154242026
+# Protein Library: /home/bio/miniconda3/envs/repeatmodeler_exact/share/RepeatMasker/Libraries/RepeatPeps.lib
+#   - 18011 proteins
+# Consensi Library: /home/bio/miniconda3/envs/repeatmodeler_exact/share/RepeatMasker/Libraries/RepeatMasker.lib
+#   - 237 consensus sequences
+# !!!! WARNING !!!! -- The curated TE consensus library does not appear to be complete.
+#                      This may result in poor clasification performance.  Please
+#                      ensure that you have the latest version of RepeatMasker
+#                      installed and that you have installed the complete set of Dfam
+#                      partitions.
+  - Looking for simple/tandem and low complexity sequences..
+  - Looking for similarity to known repeat proteins..
+  - Looking for similarity to known repeat consensi..
+
+Classification Time: 00:00:59 (hh:mm:ss) Elapsed Time
+
+
+Program Time: 00:09:10 (hh:mm:ss) Elapsed Time
