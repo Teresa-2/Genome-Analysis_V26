@@ -1,0 +1,35 @@
+Parsing fasta file /crex/proj/uppmax2026-1-61/nobackup/work/tede0387/braker3/braker3_output/braker.aa...
+Fasta file /crex/proj/uppmax2026-1-61/nobackup/work/tede0387/braker3/braker3_output/braker.aa parsing complete.
+Parsing fasta file /crex/proj/uppmax2026-1-61/nobackup/work/tede0387/eggnog/emappertmp_hmmcmd_hcw69kij/tmpfsy56xjw...
+Fasta file /crex/proj/uppmax2026-1-61/nobackup/work/tede0387/eggnog/emappertmp_hmmcmd_hcw69kij/tmpfsy56xjw parsing complete.
+26 449.75355887413025 0.06 q/s
+51 449.753634929657 0.11 q/s
+76 449.7536690235138 0.17 q/s
+101 449.75370144844055 0.22 q/s
+126 449.7537331581116 0.28 q/s
+151 449.7537648677826 0.34 q/s
+176 449.7537956237793 0.39 q/s
+201 449.7538266181946 0.45 q/s
+226 449.7538559436798 0.50 q/s
+251 449.753888130188 0.56 q/s
+276 449.75392031669617 0.61 q/s
+301 449.7539517879486 0.67 q/s
+326 449.75398230552673 0.72 q/s
+351 449.7540123462677 0.78 q/s
+376 449.7540440559387 0.84 q/s
+401 449.75407433509827 0.89 q/s
+426 449.75410437583923 0.95 q/s
+451 449.75414299964905 1.00 q/s
+476 449.7541735172272 1.06 q/s
+501 449.754203081131 1.11 q/s
+526 449.7542335987091 1.17 q/s
+551 449.7542631626129 1.23 q/s
+576 449.7542932033539 1.28 q/s
+[1;32mFunctional annotation of hits...[0m
+[1;34mTime to load the DB into memory: 162.77313780784607[0m
+Parsing fasta file /crex/proj/uppmax2026-1-61/nobackup/work/tede0387/braker3/braker3_output/braker.aa...
+Fasta file /crex/proj/uppmax2026-1-61/nobackup/work/tede0387/braker3/braker3_output/braker.aa parsing complete.
+500 244.6416096687317 2.04 q/s (% mem usage: 26.80, % mem avail: 73.15)
+1000 244.6486747264862 4.09 q/s (% mem usage: 26.80, % mem avail: 73.15)
+1500 244.65549111366272 6.13 q/s (% mem usage: 26.80, % mem avail: 73.15)
+1856 244.6753330230713 7.59 q/s (% mem usage: 26.80, % mem avail: 73.15)

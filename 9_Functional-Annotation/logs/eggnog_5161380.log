@@ -1,0 +1,52 @@
+[Tue Apr 28 10:16:39 PM CEST 2026] Running EggNOG mapper ***
+#  emapper-2.1.13
+# emapper.py  -i /proj/uppmax2026-1-61/nobackup/work/tede0387/braker3/braker3_output/braker.aa --itype proteins -m hmmer -d Viridiplantae --data_dir /sw/data/uppnex/eggNOG/5.0/rackham --output niphotrichum_eggnog --output_dir /proj/uppmax2026-1-61/nobackup/work/tede0387/eggnog/eggnog_output --cpu 2 --go_evidence all --pfam_realign realign --dbmem --resume
+hmmer.py:search DB: Viridiplantae
+/gorilla/dataset/eggNOG_data/5.0.0/rackham/hmmer/Viridiplantae/Viridiplantae.hmm
+hmmer.py:search DB: Viridiplantae, name Viridiplantae, path /gorilla/dataset/eggNOG_data/5.0.0/rackham/hmmer/Viridiplantae/Viridiplantae.hmm, host None, port 51700, endport 53200, idmap None
+[1;33mResuming previous run. Reading computed output from /crex/proj/uppmax2026-1-61/nobackup/work/tede0387/eggnog/eggnog_output/niphotrichum_eggnog.emapper.hits[0m
+1868 queries skipped
+[32mSequence mapping starts now![0m
+# /sw/arch/eb/software/HMMER/3.4-GCC-13.3.0/bin/hmmscan  --cpu 2 -o /dev/null --domtblout '/crex/proj/uppmax2026-1-61/nobackup/work/tede0387/eggnog/emappertmp_hmmcmd_hcw69kij/tmp8u8vubnh' '/gorilla/dataset/eggNOG_data/5.0.0/rackham/hmmer/Viridiplantae/Viridiplantae.hmm' '/crex/proj/uppmax2026-1-61/nobackup/work/tede0387/eggnog/emappertmp_hmmcmd_hcw69kij/tmpfsy56xjw'
+[1;34m Processed queries:593 total_time:449.7543954849243 rate:1.32 q/s[0m
+[1;32mRe-aligning queries to PFAM domains from orthologs[0m
+Loading source DB...
+[31mWarning: this can take a few minutes and load up to 45GB to RAM. Using --dbmem is recommended to annotate a large number of sequences.[0m
+[32mHit refinement starts now[0m
+[1;34m Processed queries:0 total_time:1.98930025100708 rate:0.00 q/s[0m
+[32mDone[0m
+[1;33mResult files:[0m
+   /crex/proj/uppmax2026-1-61/nobackup/work/tede0387/eggnog/eggnog_output/niphotrichum_eggnog.emapper.hits
+   /crex/proj/uppmax2026-1-61/nobackup/work/tede0387/eggnog/eggnog_output/niphotrichum_eggnog.emapper.seed_orthologs
+   /crex/proj/uppmax2026-1-61/nobackup/work/tede0387/eggnog/eggnog_output/niphotrichum_eggnog.emapper.annotations
+   /crex/proj/uppmax2026-1-61/nobackup/work/tede0387/eggnog/eggnog_output/niphotrichum_eggnog.emapper.pfam
+
+================================================================================
+CITATION:
+If you use this software, please cite:
+
+[1] eggNOG-mapper v2: functional annotation, orthology assignments, and domain 
+      prediction at the metagenomic scale. Carlos P. Cantalapiedra, 
+      Ana Hernandez-Plaza, Ivica Letunic, Peer Bork, Jaime Huerta-Cepas. 2021.
+      Molecular Biology and Evolution, msab293, https://doi.org/10.1093/molbev/msab293
+
+[2] eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated
+      orthology resource based on 5090 organisms and 2502 viruses. Jaime
+      Huerta-Cepas, Damian Szklarczyk, Davide Heller, Ana Hernandez-Plaza,
+      Sofia K Forslund, Helen Cook, Daniel R Mende, Ivica Letunic, Thomas
+      Rattei, Lars J Jensen, Christian von Mering and Peer Bork. Nucleic Acids
+      Research, Volume 47, Issue D1, 8 January 2019, Pages D309-D314,
+      https://doi.org/10.1093/nar/gky1085 
+
+[3] Accelerated Profile HMM Searches. 
+       Eddy SR. 2011. PLoS Comput. Biol. 7:e1002195. 
+
+e.g. Functional annotation was performed using eggNOG-mapper (version emapper-2.1.13) [1]
+ based on eggNOG orthology data [2]. Sequence searches were performed using [3].
+
+================================================================================
+
+Total hits processed: 1856
+Total time: 695 secs
+FINISHED
+[Tue Apr 28 10:28:22 PM CEST 2026] END - Output in /proj/uppmax2026-1-61/nobackup/work/tede0387/eggnog/eggnog_output/

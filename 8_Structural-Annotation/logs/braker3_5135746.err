@@ -1,0 +1,5 @@
+AUGUSTUS/3.5.0: A read-only config directory is at $AUGUSTUS_CONFIG_PATH. See 'module help AUGUSTUS/3.5.0' for guidance to create your own writable copy.
+chmod: cannot access '/species/': No such file or directory
+#*********
+# WARNING: Detected whitespace in fasta header of file /proj/uppmax2026-1-61/Genome_Analysis/2_Zhou_2023/Ceratodon_purpureus/C_purpureus.faa. This may later on cause problems! The pipeline will create a new file without spaces or "|" characters and a genome_header.map file to look up the old and new headers. This message will be suppressed from now on!
+#*********
