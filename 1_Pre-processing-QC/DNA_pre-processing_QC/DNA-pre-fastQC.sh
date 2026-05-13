@@ -2,7 +2,9 @@
 #SBATCH -A uppmax2026-1-61
 #SBATCH -n 1
 #SBATCH -t 01:00:00
-#SBATCH -J fastqc
+#SBATCH -J DNA-fastqc
+#SBATCH -o /proj/uppmax2026-1-61/nobackup/work/tede0387/1_Pre-processing-QC/logs/DNA-pre-fastqc_%j.out
+#SBATCH -e /proj/uppmax2026-1-61/nobackup/work/tede0387/1_Pre-processing-QC/logs/DNA-pre-fastqc_%j.err
 
 module load FastQC
 

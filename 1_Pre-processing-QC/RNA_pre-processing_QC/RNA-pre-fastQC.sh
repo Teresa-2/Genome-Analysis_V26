@@ -3,8 +3,12 @@
 #SBATCH -n 1
 #SBATCH -t 01:00:00
 #SBATCH -J RNA-fastqc
+#SBATCH -o /proj/uppmax2026-1-61/nobackup/work/tede0387/1_Pre-processing-QC/logs/RNA-pre-fastqc_%j.out
+#SBATCH -e /proj/uppmax2026-1-61/nobackup/work/tede0387/1_Pre-processing-QC/logs/RNA-pre-fastqc_%j.err
 
 READS_DIR="/proj/uppmax2026-1-61/Genome_Analysis/2_Zhou_2023/reads/transcriptomic_data"
+
+module load FastQC
 
 fastqc \
 $READS_DIR/Control_1_f1.fq.gz \
