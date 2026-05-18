@@ -40,7 +40,7 @@ contig_98_pilon
 2359	1817	542	77.02	prothint/prothint.gff
 8533	1817	6716	21.29	r_hints_nonhc.gtf
 
-# number of transcripts in file: 1925 /proj/uppmax2026-1-61/nobackup/work/tede0387/braker3/braker3_output/GeneMark-ETP/proteins.fa/genemark_supported.gtf
+# number of transcripts in file: 1925 /proj/uppmax2026-1-61/nobackup/work/tede0387/braker3/braker3_last-exec/GeneMark-ETP/proteins.fa/genemark_supported.gtf
 # number of genes in set: 1621
 # removed partial: 2
 # genes found for training: 1621
@@ -77,7 +77,7 @@ contig_98_pilon
 2359	1817	542	77.02	prothint/prothint.gff
 8533	1817	6716	21.29	r_hints_nonhc.gtf
 
-# number of transcripts in file: 1921 /proj/uppmax2026-1-61/nobackup/work/tede0387/braker3/braker3_output/GeneMark-ETP/proteins.fa/genemark_supported.gtf
+# number of transcripts in file: 1921 /proj/uppmax2026-1-61/nobackup/work/tede0387/braker3/braker3_last-exec/GeneMark-ETP/proteins.fa/genemark_supported.gtf
 # number of genes in set: 1617
 # removed partial: 2
 # genes found for training: 1617

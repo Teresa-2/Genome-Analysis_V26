@@ -1,6 +1,0 @@
-'/sw/bioinfo/GeneMark/4.33-es/snowy/gm_key' -> '/home/tede0387/.gm_key'
-[Tue Apr 28 09:35:13 AM CEST 2026] *** Running BRAKER3
-# Tue Apr 28 09:35:15 2026:Both protein and RNA-Seq data in input detected. BRAKER will be executed in ETP mode (BRAKER3).
-#*********
-# Tue Apr 28 09:35:17 2026: Log information is stored in file /proj/uppmax2026-1-61/nobackup/work/tede0387/braker3/braker3_output/braker.log
-[Tue Apr 28 05:33:56 PM CEST 2026] *** END - Output in /proj/uppmax2026-1-61/nobackup/work/tede0387/braker3/braker3_output/

@@ -1,21 +1,21 @@
-FASTA index file /proj/uppmax2026-1-61/nobackup/work/tede0387/braker3/braker3_output/GeneMark-ETP/data/genome.softmasked.fasta.fai created.
+FASTA index file /proj/uppmax2026-1-61/nobackup/work/tede0387/braker3/braker3_last-exec/GeneMark-ETP/data/genome.softmasked.fasta.fai created.
 Use of uninitialized value in numeric eq (==) at /opt/ETP/bin/gmes/build_mod.pl line 50.
 Use of uninitialized value in numeric eq (==) at /opt/ETP/bin/gmes/build_mod.pl line 56.
-28-Apr-26 10:21:03 - INFO: Finding masking penalty maximizing the number of correctly predicted reliable exons in range from 0 to 0.2 with step 0.04
-28-Apr-26 10:21:03 - INFO: Running prediction with masking penalty = 0
-28-Apr-26 10:29:59 - INFO: Running prediction with masking penalty = 0.04
-28-Apr-26 10:38:58 - INFO: Running prediction with masking penalty = 0.08
-28-Apr-26 10:47:59 - INFO: Running prediction with masking penalty = 0.12
-28-Apr-26 10:57:00 - INFO: Running prediction with masking penalty = 0.16
-28-Apr-26 11:06:02 - INFO: Running prediction with masking penalty = 0.2
-28-Apr-26 11:15:01 - INFO: Finding masking penalty maximizing the number of correctly predicted reliable exons in range from 0.04 to 0.12 with step 0.02
-28-Apr-26 11:15:01 - INFO: Running prediction with masking penalty = 0.06
-28-Apr-26 11:24:00 - INFO: Running prediction with masking penalty = 0.1
-28-Apr-26 11:33:01 - INFO: Finding masking penalty maximizing the number of correctly predicted reliable exons in range from 0.04 to 0.08 with step 0.01
-28-Apr-26 11:33:01 - INFO: Running prediction with masking penalty = 0.05
-28-Apr-26 11:42:02 - INFO: Running prediction with masking penalty = 0.07
-28-Apr-26 11:51:00 - INFO: Selected baseline penalty for the maximum # of correct reliable predictions: 0.06
-28-Apr-26 11:51:00 - INFO: Masking penalty was set to 0.2
+05-May-26 20:59:01 - INFO: Finding masking penalty maximizing the number of correctly predicted reliable exons in range from 0 to 0.2 with step 0.04
+05-May-26 20:59:01 - INFO: Running prediction with masking penalty = 0
+05-May-26 21:07:58 - INFO: Running prediction with masking penalty = 0.04
+05-May-26 21:16:54 - INFO: Running prediction with masking penalty = 0.08
+05-May-26 21:25:50 - INFO: Running prediction with masking penalty = 0.12
+05-May-26 21:34:46 - INFO: Running prediction with masking penalty = 0.16
+05-May-26 21:43:42 - INFO: Running prediction with masking penalty = 0.2
+05-May-26 21:52:38 - INFO: Finding masking penalty maximizing the number of correctly predicted reliable exons in range from 0.04 to 0.12 with step 0.02
+05-May-26 21:52:38 - INFO: Running prediction with masking penalty = 0.06
+05-May-26 22:01:34 - INFO: Running prediction with masking penalty = 0.1
+05-May-26 22:10:31 - INFO: Finding masking penalty maximizing the number of correctly predicted reliable exons in range from 0.04 to 0.08 with step 0.01
+05-May-26 22:10:31 - INFO: Running prediction with masking penalty = 0.05
+05-May-26 22:19:27 - INFO: Running prediction with masking penalty = 0.07
+05-May-26 22:28:24 - INFO: Selected baseline penalty for the maximum # of correct reliable predictions: 0.06
+05-May-26 22:28:24 - INFO: Masking penalty was set to 0.2
 Use of uninitialized value in numeric eq (==) at /opt/ETP/bin/gmes/build_mod.pl line 50.
 Use of uninitialized value in numeric eq (==) at /opt/ETP/bin/gmes/build_mod.pl line 56.
 Use of uninitialized value in numeric eq (==) at /opt/ETP/bin/gmes/build_mod.pl line 50.
