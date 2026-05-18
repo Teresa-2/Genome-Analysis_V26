@@ -1,13 +1,23 @@
-#!/bin/bash
+#!/bin/bash -l
+#SBATCH -A uppmax2026-1-61
+#SBATCH -n 2
+#SBATCH --mem=24G
+#SBATCH -t 12:00:00
+#SBATCH -J pilon_chr3
+
+# ── MODULES ───────────────────────────────────────────────────────────────
+module load bwa-mem2/2.3-GCC-13.3.0
+module load SAMtools/1.22.1-GCC-13.3.0
+module load Pilon/1.24-Java-17
 
 # ── PATHS ────────────────────────────────────────────────────────────────
 ASSEMBLY="assembly.fasta"
-R1="chr3_illumina_R1.fastq.gz"
-R2="chr3_illumina_R2.fastq.gz"
+R1="/proj/uppmax2026-1-61/Genome_Analysis/2_Zhou_2023/reads/genomics_chr3_data/chr3_illumina_R1.fastq.gz"
+R2="/proj/uppmax2026-1-61/Genome_Analysis/2_Zhou_2023/reads/genomics_chr3_data/chr3_illumina_R2.fastq.gz"
 
-THREADS=8   # locally executed
-MEM="12g"          # locally executed
-OUTDIR="pilon_output"
+THREADS=2
+MEM="24G"
+OUTDIR="/proj/uppmax2026-1-61/nobackup/work/tede0387/Genome-Analysis_V26/5_Polishing/pilon_output"
 
 mkdir -p "$OUTDIR"
 
