@@ -1,0 +1,17 @@
+[Tue May 19 03:01:47 PM CEST 2026] Step 1: building meryl db from Illumina reads (k=17)
+[Tue May 19 03:12:12 PM CEST 2026] Step 2: running Merqury (k=17)
+read: reads.meryl
+
+No haplotype dbs provided.
+Running Merqury in non-trio mode...
+
+asm1: polished_assembly.fasta
+out : merqury_out_k17
+
+
+Get spectra-cn plots and QV stats
+[Tue May 19 03:14:05 PM CEST 2026] Done.
+*** QV:
+polished_assembly  659519  17080449  26.357  0.00231366
+*** Completeness:
+polished_assembly  all  14231310  16365351  86.96
