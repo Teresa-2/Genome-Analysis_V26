@@ -1,0 +1,42 @@
+2026-05-18 20:24:51 INFO:	***** Start a BUSCO v5.8.2 analysis, current time: 05/18/2026 20:24:51 *****
+2026-05-18 20:24:51 INFO:	Configuring BUSCO with /sw/arch/eb/software/BUSCO/5.8.2-gfbf-2024a/config/config.ini
+2026-05-18 20:24:51 INFO:	Running proteins mode
+2026-05-18 20:24:51 INFO:	Downloading information on latest versions of BUSCO data...
+2026-05-18 20:24:51 INFO:	Input file is /gorilla/home/tede0387/Genome-Analysis/Genome-Analysis_V26/08_Structural-Annotation/braker.aa
+2026-05-18 20:24:52 INFO:	Running BUSCO using lineage dataset embryophyta_odb12 (eukaryota, 2025-07-01)
+2026-05-18 20:24:52 INFO:	***** Run HMMER on gene sequences *****
+2026-05-18 20:24:52 INFO:	Running 2026 job(s) on hmmsearch, starting at 05/18/2026 20:24:52
+2026-05-18 20:24:52 INFO:	Note: detected 96 virtual cores but NumExpr set to maximum of 64, check "NUMEXPR_MAX_THREADS" environment variable.
+2026-05-18 20:24:52 INFO:	Note: detected 96 virtual cores but NumExpr set to maximum of 64, check "NUMEXPR_MAX_THREADS" environment variable.
+2026-05-18 20:24:52 INFO:	Note: NumExpr detected 96 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2026-05-18 20:24:52 INFO:	Note: NumExpr detected 96 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2026-05-18 20:24:52 INFO:	NumExpr defaulting to 8 threads.
+2026-05-18 20:24:52 INFO:	NumExpr defaulting to 8 threads.
+2026-05-18 20:25:02 INFO:	[hmmsearch]	203 of 2026 task(s) completed
+2026-05-18 20:25:10 INFO:	[hmmsearch]	406 of 2026 task(s) completed
+2026-05-18 20:25:20 INFO:	[hmmsearch]	608 of 2026 task(s) completed
+2026-05-18 20:25:30 INFO:	[hmmsearch]	811 of 2026 task(s) completed
+2026-05-18 20:25:39 INFO:	[hmmsearch]	1013 of 2026 task(s) completed
+2026-05-18 20:25:48 INFO:	[hmmsearch]	1216 of 2026 task(s) completed
+2026-05-18 20:25:57 INFO:	[hmmsearch]	1419 of 2026 task(s) completed
+2026-05-18 20:26:06 INFO:	[hmmsearch]	1621 of 2026 task(s) completed
+2026-05-18 20:26:16 INFO:	[hmmsearch]	1824 of 2026 task(s) completed
+2026-05-18 20:26:28 INFO:	[hmmsearch]	2026 of 2026 task(s) completed
+2026-05-18 20:26:28 INFO:	
+
+    ---------------------------------------------------
+    |Results from dataset embryophyta_odb12            |
+    ---------------------------------------------------
+    |C:8.0%[S:6.3%,D:1.7%],F:1.3%,M:90.7%,n:2026       |
+    |162    Complete BUSCOs (C)                        |
+    |128    Complete and single-copy BUSCOs (S)        |
+    |34    Complete and duplicated BUSCOs (D)          |
+    |27    Fragmented BUSCOs (F)                       |
+    |1837    Missing BUSCOs (M)                        |
+    |2026    Total BUSCO groups searched               |
+    ---------------------------------------------------
+2026-05-18 20:26:28 INFO:	BUSCO analysis done. Total running time: 97 seconds
+2026-05-18 20:26:28 INFO:	Results written in /gorilla/home/tede0387/Genome-Analysis/Genome-Analysis_V26/08_Structural-Annotation/busco-evaluation/busco_braker-proteins
+2026-05-18 20:26:28 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2026-05-18 20:26:28 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO

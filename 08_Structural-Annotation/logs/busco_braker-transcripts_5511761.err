@@ -1,0 +1,3 @@
+AUGUSTUS/3.5.0: A read-only config directory is at $AUGUSTUS_CONFIG_PATH. See 'module help AUGUSTUS/3.5.0' for guidance to create your own writable copy.
+BBMap/39.19: For improved speed, add 'usejni=t' to the command line of BBMap tools which support the use of the compiled jni C code.
+BUSCO/5.8.2: see 'module help BUSCO/5.8.2' for availability of lineage sets

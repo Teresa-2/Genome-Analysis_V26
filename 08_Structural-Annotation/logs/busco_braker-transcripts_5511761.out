@@ -1,0 +1,87 @@
+2026-05-18 20:24:51 INFO:	***** Start a BUSCO v5.8.2 analysis, current time: 05/18/2026 20:24:51 *****
+2026-05-18 20:24:51 INFO:	Configuring BUSCO with /sw/arch/eb/software/BUSCO/5.8.2-gfbf-2024a/config/config.ini
+2026-05-18 20:24:51 INFO:	Running transcriptome mode
+2026-05-18 20:24:51 INFO:	Downloading information on latest versions of BUSCO data...
+2026-05-18 20:24:51 INFO:	Input file is /gorilla/home/tede0387/Genome-Analysis/Genome-Analysis_V26/08_Structural-Annotation/braker.codingseq
+2026-05-18 20:24:52 INFO:	Running BUSCO using lineage dataset embryophyta_odb12 (eukaryota, 2025-07-01)
+2026-05-18 20:24:52 WARNING:	Unable to remove compressed refseq file in dataset download
+2026-05-18 20:24:52 INFO:	Running 1 job(s) on metaeuk, starting at 05/18/2026 20:24:52
+2026-05-18 20:24:52 INFO:	Note: detected 96 virtual cores but NumExpr set to maximum of 64, check "NUMEXPR_MAX_THREADS" environment variable.
+2026-05-18 20:24:52 INFO:	Note: NumExpr detected 96 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2026-05-18 20:24:52 INFO:	NumExpr defaulting to 8 threads.
+2026-05-18 20:24:52 INFO:	Note: detected 96 virtual cores but NumExpr set to maximum of 64, check "NUMEXPR_MAX_THREADS" environment variable.
+2026-05-18 20:24:52 INFO:	Note: NumExpr detected 96 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2026-05-18 20:24:52 INFO:	NumExpr defaulting to 8 threads.
+2026-05-18 20:26:15 INFO:	[metaeuk]	1 of 1 task(s) completed
+2026-05-18 20:26:15 INFO:	***** Run HMMER on gene sequences *****
+2026-05-18 20:26:15 INFO:	Running 2026 job(s) on hmmsearch, starting at 05/18/2026 20:26:15
+2026-05-18 20:26:16 INFO:	Note: detected 96 virtual cores but NumExpr set to maximum of 64, check "NUMEXPR_MAX_THREADS" environment variable.
+2026-05-18 20:26:16 INFO:	Note: detected 96 virtual cores but NumExpr set to maximum of 64, check "NUMEXPR_MAX_THREADS" environment variable.
+2026-05-18 20:26:16 INFO:	Note: NumExpr detected 96 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2026-05-18 20:26:16 INFO:	Note: NumExpr detected 96 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2026-05-18 20:26:16 INFO:	NumExpr defaulting to 8 threads.
+2026-05-18 20:26:16 INFO:	NumExpr defaulting to 8 threads.
+2026-05-18 20:26:22 INFO:	[hmmsearch]	203 of 2026 task(s) completed
+2026-05-18 20:26:28 INFO:	[hmmsearch]	406 of 2026 task(s) completed
+2026-05-18 20:26:35 INFO:	[hmmsearch]	608 of 2026 task(s) completed
+2026-05-18 20:26:41 INFO:	[hmmsearch]	811 of 2026 task(s) completed
+2026-05-18 20:26:47 INFO:	[hmmsearch]	1013 of 2026 task(s) completed
+2026-05-18 20:26:53 INFO:	[hmmsearch]	1216 of 2026 task(s) completed
+2026-05-18 20:26:58 INFO:	[hmmsearch]	1419 of 2026 task(s) completed
+2026-05-18 20:27:03 INFO:	[hmmsearch]	1621 of 2026 task(s) completed
+2026-05-18 20:27:10 INFO:	[hmmsearch]	1824 of 2026 task(s) completed
+2026-05-18 20:27:17 INFO:	[hmmsearch]	2026 of 2026 task(s) completed
+2026-05-18 20:27:18 INFO:	251 exons in total
+2026-05-18 20:27:18 INFO:	Extracting missing and fragmented buscos from the file refseq_db.faa...
+2026-05-18 20:27:42 INFO:	Running 1 job(s) on metaeuk, starting at 05/18/2026 20:27:42
+2026-05-18 20:27:43 INFO:	Note: detected 96 virtual cores but NumExpr set to maximum of 64, check "NUMEXPR_MAX_THREADS" environment variable.
+2026-05-18 20:27:43 INFO:	Note: detected 96 virtual cores but NumExpr set to maximum of 64, check "NUMEXPR_MAX_THREADS" environment variable.
+2026-05-18 20:27:43 INFO:	Note: NumExpr detected 96 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2026-05-18 20:27:43 INFO:	Note: NumExpr detected 96 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2026-05-18 20:27:43 INFO:	NumExpr defaulting to 8 threads.
+2026-05-18 20:27:43 INFO:	NumExpr defaulting to 8 threads.
+2026-05-18 20:30:53 INFO:	[metaeuk]	1 of 1 task(s) completed
+2026-05-18 20:30:53 INFO:	***** Run HMMER on gene sequences *****
+2026-05-18 20:30:53 INFO:	Running 1872 job(s) on hmmsearch, starting at 05/18/2026 20:30:53
+2026-05-18 20:30:53 INFO:	Note: detected 96 virtual cores but NumExpr set to maximum of 64, check "NUMEXPR_MAX_THREADS" environment variable.
+2026-05-18 20:30:53 INFO:	Note: NumExpr detected 96 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2026-05-18 20:30:53 INFO:	NumExpr defaulting to 8 threads.
+2026-05-18 20:30:53 INFO:	Note: detected 96 virtual cores but NumExpr set to maximum of 64, check "NUMEXPR_MAX_THREADS" environment variable.
+2026-05-18 20:30:53 INFO:	Note: NumExpr detected 96 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2026-05-18 20:30:53 INFO:	NumExpr defaulting to 8 threads.
+2026-05-18 20:30:58 INFO:	[hmmsearch]	188 of 1872 task(s) completed
+2026-05-18 20:31:02 INFO:	[hmmsearch]	375 of 1872 task(s) completed
+2026-05-18 20:31:07 INFO:	[hmmsearch]	562 of 1872 task(s) completed
+2026-05-18 20:31:12 INFO:	[hmmsearch]	749 of 1872 task(s) completed
+2026-05-18 20:31:16 INFO:	[hmmsearch]	936 of 1872 task(s) completed
+2026-05-18 20:31:20 INFO:	[hmmsearch]	1124 of 1872 task(s) completed
+2026-05-18 20:31:24 INFO:	[hmmsearch]	1311 of 1872 task(s) completed
+2026-05-18 20:31:27 INFO:	[hmmsearch]	1498 of 1872 task(s) completed
+2026-05-18 20:31:30 INFO:	[hmmsearch]	1685 of 1872 task(s) completed
+2026-05-18 20:31:36 INFO:	[hmmsearch]	1872 of 1872 task(s) completed
+2026-05-18 20:31:36 INFO:	6 candidate overlapping regions found
+2026-05-18 20:31:36 INFO:	254 exons in total
+2026-05-18 20:31:36 INFO:	Results:	C:7.6%[S:6.0%,D:1.6%],F:1.5%,M:90.9%,n:2026	   
+
+2026-05-18 20:31:36 INFO:	
+
+    ---------------------------------------------------
+    |Results from dataset embryophyta_odb12            |
+    ---------------------------------------------------
+    |C:7.6%[S:6.0%,D:1.6%],F:1.5%,M:90.9%,n:2026       |
+    |154    Complete BUSCOs (C)                        |
+    |122    Complete and single-copy BUSCOs (S)        |
+    |32    Complete and duplicated BUSCOs (D)          |
+    |31    Fragmented BUSCOs (F)                       |
+    |1841    Missing BUSCOs (M)                        |
+    |2026    Total BUSCO groups searched               |
+    ---------------------------------------------------
+2026-05-18 20:31:36 INFO:	BUSCO analysis done with WARNING(s). Total running time: 405 seconds
+
+***** Summary of warnings: *****
+2026-05-18 20:24:52 WARNING:busco.busco_tools.base	Unable to remove compressed refseq file in dataset download
+
+2026-05-18 20:31:36 INFO:	Results written in /gorilla/home/tede0387/Genome-Analysis/Genome-Analysis_V26/08_Structural-Annotation/busco-evaluation/busco_braker-transcripts
+2026-05-18 20:31:36 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2026-05-18 20:31:36 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO
