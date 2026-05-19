@@ -1,0 +1,512 @@
+[ 2026-05-08 21:51:41 ] GO Enrichment Analysis Started
+Checking and installing required packages...
+Installing BiocManager...
+Installing topGO...
+[ 2026-05-08 21:58:20 ] GO Enrichment Analysis Started
+Checking and installing required packages...
+Installing topGO...
+Installing rrvgo...
+Installing igraph...
+Installing org.At.tair.db...
+Loading libraries...
+[ 2026-05-08 22:12:40 ] GO Enrichment Analysis Started
+Checking and installing required packages...
+Installing topGO...
+Installing rrvgo...
+Installing igraph...
+Installing org.At.tair.db...
+Loading libraries...
+[ 2026-05-09 10:53:16 ] GO Enrichment Analysis Started
+Checking and installing required packages...
+Installing topGO...
+Installing rrvgo...
+Installing igraph...
+Installing org.At.tair.db...
+Loading libraries...
+[ 2026-05-09 11:00:44 ] GO Enrichment Analysis Started
+Checking and installing required packages...
+Installing BiocManager...
+Loading libraries...
+Libraries loaded successfully
+
+=== READING DATA ===
+DEGs loaded: 562 significant genes
+[ 2026-05-09 11:04:34 ] GO Enrichment Analysis Started
+Checking and installing required packages...
+Loading libraries...
+Libraries loaded successfully
+
+=== READING DATA ===
+DEGs loaded: 562 significant genes
+eggNOG annotations loaded: 1863 genes
+
+=== BUILDING GENE-TO-GO MAPPING ===
+Genes with GO annotations: 998
+Gene-to-GO mapping created for 998 genes
+
+=== CREATING topGO OBJECT ===
+Total unique GO terms: 4620
+DEGs in annotation set: 0
+[ 2026-05-09 11:05:47 ] GO Enrichment Analysis Started
+Checking and installing required packages...
+Loading libraries...
+Libraries loaded successfully
+
+=== READING DATA ===
+DEGs loaded: 562 significant genes
+eggNOG annotations loaded: 1863 genes
+
+=== BUILDING GENE-TO-GO MAPPING ===
+Genes with GO annotations: 998
+Gene-to-GO mapping created for 998 genes
+
+=== CREATING topGO OBJECT ===
+Total unique GO terms: 4620
+DEGs in annotation set: 0
+[ 2026-05-09 11:07:04 ] GO Enrichment Analysis Started
+Checking and installing required packages...
+Loading libraries...
+Libraries loaded successfully
+
+=== READING DATA ===
+DEGs loaded: 562 significant genes
+eggNOG annotations loaded: 1863 genes
+
+=== BUILDING GENE-TO-GO MAPPING ===
+Genes with GO annotations: 998
+Gene-to-GO mapping created for 998 genes
+
+=== CREATING topGO OBJECT ===
+Total unique GO terms: 4620
+DEGs in annotation set: 0
+topGO object created successfully
+
+=== RUNNING GO ENRICHMENT (Fisher's exact test) ===
+[ 2026-05-09 11:09:11 ] GO Enrichment Analysis Started
+Checking and installing required packages...
+Loading libraries...
+Libraries loaded successfully
+
+=== READING DATA ===
+DEGs loaded: 562 significant genes
+eggNOG annotations loaded: 1863 genes
+
+=== BUILDING GENE-TO-GO MAPPING ===
+Genes with GO annotations: 998
+Gene-to-GO mapping created for 998 genes
+
+=== CREATING topGO OBJECT ===
+Total unique GO terms: 4620
+DEGs in annotation set: 0
+topGO object created successfully
+
+=== RUNNING GO ENRICHMENT (Fisher's exact test) ===
+Significant GO terms (padj < 0.05): 0
+
+=== EXPORTING RESULTS ===
+All GO results saved to: /home/teresa/UU/Genome-Analysis/12_GO-Enrichment/go_enrichment_all.csv
+WARNING: No significant GO terms found at padj < 0.05
+
+=== CREATING VISUALIZATIONS ===
+Skipping rrvgo visualizations (no significant GO terms)
+
+=== SUMMARY ===
+Total genes analyzed: 998
+DEGs with GO annotations: 0
+Total GO terms found: 1011
+Significant GO terms (padj < 0.05): 0
+
+[1] "============================================================"
+[1] "GO ENRICHMENT ANALYSIS COMPLETE"
+[1] "============================================================"
+[1] "Output directory:  /home/teresa/UU/Genome-Analysis/12_GO-Enrichment"
+[1] "============================================================"
+[1] "Analysis finished at:  2026-05-09 11:09:23"
+[ 2026-05-09 11:11:27 ] GO Enrichment Analysis Started
+Checking and installing required packages...
+Loading libraries...
+Libraries loaded successfully
+
+=== READING DATA ===
+DEGs loaded: 562 significant genes
+eggNOG annotations loaded: 1863 genes
+
+=== BUILDING GENE-TO-GO MAPPING ===
+Genes with GO annotations: 998
+Gene-to-GO mapping created for 767 genes
+
+=== CREATING topGO OBJECT ===
+Total unique GO terms: 4620
+DEGs in annotation set: 221
+topGO object created successfully
+
+=== RUNNING GO ENRICHMENT (Fisher's exact test) ===
+Significant GO terms (padj < 0.05): 0
+
+=== EXPORTING RESULTS ===
+All GO results saved to: /home/teresa/UU/Genome-Analysis/12_GO-Enrichment/go_enrichment_all.csv
+WARNING: No significant GO terms found at padj < 0.05
+
+=== CREATING VISUALIZATIONS ===
+Skipping rrvgo visualizations (no significant GO terms)
+
+=== SUMMARY ===
+Total genes analyzed: 767
+DEGs with GO annotations: 221
+Total GO terms found: 840
+Significant GO terms (padj < 0.05): 0
+
+[1] "============================================================"
+[1] "GO ENRICHMENT ANALYSIS COMPLETE"
+[1] "============================================================"
+[1] "Output directory:  /home/teresa/UU/Genome-Analysis/12_GO-Enrichment"
+[1] "============================================================"
+[1] "Analysis finished at:  2026-05-09 11:11:40"
+[ 2026-05-09 11:14:05 ] GO Enrichment Analysis Started
+Checking and installing required packages...
+Loading libraries...
+Libraries loaded successfully
+
+=== READING DATA ===
+DEGs loaded: 562 significant genes
+eggNOG annotations loaded: 1863 genes
+
+=== BUILDING GENE-TO-GO MAPPING ===
+Genes with GO annotations: 998
+Gene-to-GO mapping created for 767 genes
+
+=== CREATING topGO OBJECT ===
+Total unique GO terms: 4620
+DEGs in annotation set: 221
+topGO object created successfully
+
+=== RUNNING GO ENRICHMENT (Fisher's exact test) ===
+Significant GO terms (padj < 0.05): 0
+
+=== EXPORTING RESULTS ===
+All GO results saved to: /home/teresa/UU/Genome-Analysis/12_GO-Enrichment/go_enrichment_all.csv
+WARNING: No significant GO terms found at padj < 0.05
+
+=== CREATING VISUALIZATIONS ===
+Skipping rrvgo visualizations (no significant GO terms)
+
+=== SUMMARY ===
+Total genes analyzed: 767
+DEGs with GO annotations: 221
+Total GO terms found: 840
+Significant GO terms (padj < 0.05): 0
+
+[1] "============================================================"
+[1] "GO ENRICHMENT ANALYSIS COMPLETE"
+[1] "============================================================"
+[1] "Output directory:  /home/teresa/UU/Genome-Analysis/12_GO-Enrichment"
+[1] "============================================================"
+[1] "Analysis finished at:  2026-05-09 11:14:18"
+[ 2026-05-09 11:20:43 ] GO Enrichment Analysis Started
+Checking and installing required packages...
+Loading libraries...
+Libraries loaded successfully
+
+=== READING DATA ===
+DEGs loaded: 562 significant genes
+eggNOG annotations loaded: 1863 genes
+
+=== BUILDING GENE-TO-GO MAPPING ===
+Genes with GO annotations: 998
+Gene-to-GO mapping created for 767 genes
+
+=== CREATING topGO OBJECT ===
+Total unique GO terms: 4620
+DEGs in annotation set: 221
+topGO object created successfully
+
+=== RUNNING GO ENRICHMENT (Fisher's exact test) ===
+Significant GO terms (Fisher p < 0.05): 31
+
+=== EXPORTING RESULTS ===
+All GO results saved to: /home/teresa/UU/Genome-Analysis/12_GO-Enrichment/go_enrichment_all.csv
+Significant GO results saved to: /home/teresa/UU/Genome-Analysis/12_GO-Enrichment/go_enrichment_significant.csv
+
+=== CREATING VISUALIZATIONS ===
+Reducing GO term redundancy for visualization...
+[ 2026-05-09 11:23:11 ] GO Enrichment Analysis Started
+Checking and installing required packages...
+Loading libraries...
+Libraries loaded successfully
+
+=== READING DATA ===
+DEGs loaded: 562 significant genes
+eggNOG annotations loaded: 1863 genes
+
+=== BUILDING GENE-TO-GO MAPPING ===
+Genes with GO annotations: 998
+Gene-to-GO mapping created for 767 genes
+
+=== CREATING topGO OBJECT ===
+Total unique GO terms: 4620
+DEGs in annotation set: 221
+topGO object created successfully
+
+=== RUNNING GO ENRICHMENT (Fisher's exact test) ===
+Significant GO terms (Fisher p < 0.05): 31
+
+=== EXPORTING RESULTS ===
+All GO results saved to: /home/teresa/UU/Genome-Analysis/12_GO-Enrichment/go_enrichment_all.csv
+Significant GO results saved to: /home/teresa/UU/Genome-Analysis/12_GO-Enrichment/go_enrichment_significant.csv
+
+=== CREATING VISUALIZATIONS ===
+Calculating semantic similarity matrix...
+[ 2026-05-09 11:26:05 ] GO Enrichment Analysis Started
+Checking and installing required packages...
+Loading libraries...
+Libraries loaded successfully
+
+=== READING DATA ===
+DEGs loaded: 562 significant genes
+eggNOG annotations loaded: 1863 genes
+
+=== BUILDING GENE-TO-GO MAPPING ===
+Genes with GO annotations: 998
+Gene-to-GO mapping created for 767 genes
+
+=== CREATING topGO OBJECT ===
+Total unique GO terms: 4620
+DEGs in annotation set: 221
+topGO object created successfully
+
+=== RUNNING GO ENRICHMENT (Fisher's exact test) ===
+Significant GO terms (Fisher p < 0.05): 31
+
+=== EXPORTING RESULTS ===
+All GO results saved to: /home/teresa/UU/Genome-Analysis/12_GO-Enrichment/go_enrichment_all.csv
+Significant GO results saved to: /home/teresa/UU/Genome-Analysis/12_GO-Enrichment/go_enrichment_significant.csv
+
+=== CREATING VISUALIZATIONS ===
+Calculating semantic similarity matrix...
+[ 2026-05-09 11:28:07 ] GO Enrichment Analysis Started
+Checking and installing required packages...
+Loading libraries...
+Libraries loaded successfully
+
+=== READING DATA ===
+DEGs loaded: 562 significant genes
+eggNOG annotations loaded: 1863 genes
+
+=== BUILDING GENE-TO-GO MAPPING ===
+Genes with GO annotations: 998
+Gene-to-GO mapping created for 767 genes
+
+=== CREATING topGO OBJECT ===
+Total unique GO terms: 4620
+DEGs in annotation set: 221
+topGO object created successfully
+
+=== RUNNING GO ENRICHMENT (Fisher's exact test) ===
+Significant GO terms (Fisher p < 0.05): 31
+
+=== EXPORTING RESULTS ===
+All GO results saved to: /home/teresa/UU/Genome-Analysis/12_GO-Enrichment/go_enrichment_all.csv
+Significant GO results saved to: /home/teresa/UU/Genome-Analysis/12_GO-Enrichment/go_enrichment_significant.csv
+
+=== CREATING VISUALIZATIONS ===
+Calculating semantic similarity matrix...
+Treemap visualization saved
+Scatter plot visualization saved
+
+=== SUMMARY ===
+Total genes analyzed: 767
+DEGs with GO annotations: 221
+Total GO terms found: 840
+Significant GO terms (Fisher p < 0.05): 31
+
+Top 10 significant GO terms:
+        GO.ID                                        Term Annotated Significant
+1  GO:0007005                  mitochondrion organization        15          10
+2  GO:0006366          transcription by RNA polymerase II        22          12
+3  GO:0051248 negative regulation of protein metabolic...         6           5
+4  GO:0010605 negative regulation of macromolecule met...        38          18
+5  GO:0033013              tetrapyrrole metabolic process        15           9
+6  GO:0033014           tetrapyrrole biosynthetic process        13           8
+7  GO:0045944 positive regulation of transcription by ...        11           7
+8  GO:0009892    negative regulation of metabolic process        43          19
+9  GO:0043086 negative regulation of catalytic activit...         9           6
+10 GO:0006357 regulation of transcription by RNA polym...        19          10
+   Fisher      padj
+1  0.0022 0.9862336
+2  0.0085 0.9862336
+3  0.0085 0.9862336
+4  0.0091 0.9862336
+5  0.0103 0.9862336
+6  0.0128 0.9862336
+7  0.0159 0.9862336
+8  0.0181 0.9862336
+9  0.0193 0.9862336
+10 0.0221 0.9862336
+
+[1] "============================================================"
+[1] "GO ENRICHMENT ANALYSIS COMPLETE"
+[1] "============================================================"
+[1] "Output directory:  /home/teresa/UU/Genome-Analysis/12_GO-Enrichment"
+[1] "============================================================"
+[1] "Analysis finished at:  2026-05-09 11:29:12"
+[ 2026-05-10 16:46:38 ] GO Enrichment Analysis Started
+Checking and installing required packages...
+Loading libraries...
+Libraries loaded successfully
+
+=== READING DATA ===
+DEGs loaded: 562 significant genes
+eggNOG annotations loaded: 1863 genes
+
+=== BUILDING GENE-TO-GO MAPPING ===
+Genes with GO annotations: 998
+Gene-to-GO mapping created for 767 genes
+
+=== CREATING topGO OBJECT ===
+Total unique GO terms: 4620
+DEGs in annotation set: 221
+topGO object created successfully
+
+=== RUNNING GO ENRICHMENT (Fisher's exact test) ===
+Significant GO terms (Fisher p < 0.05): 31
+
+=== EXPORTING RESULTS ===
+All GO results saved to: /home/teresa/UU/Genome-Analysis/12_GO-Enrichment/go_enrichment_all.csv
+Significant GO results saved to: /home/teresa/UU/Genome-Analysis/12_GO-Enrichment/go_enrichment_significant.csv
+
+=== CREATING VISUALIZATIONS ===
+Calculating semantic similarity matrix...
+[ 2026-05-10 16:48:18 ] GO Enrichment Analysis Started
+Checking and installing required packages...
+Loading libraries...
+Libraries loaded successfully
+
+=== READING DATA ===
+DEGs loaded: 562 significant genes
+eggNOG annotations loaded: 1863 genes
+
+=== BUILDING GENE-TO-GO MAPPING ===
+Genes with GO annotations: 998
+Gene-to-GO mapping created for 767 genes
+
+=== CREATING topGO OBJECT ===
+Total unique GO terms: 4620
+DEGs in annotation set: 221
+topGO object created successfully
+
+=== RUNNING GO ENRICHMENT (Fisher's exact test) ===
+Significant GO terms (Fisher p < 0.05): 31
+
+=== EXPORTING RESULTS ===
+All GO results saved to: /home/teresa/UU/Genome-Analysis/12_GO-Enrichment/go_enrichment_all.csv
+Significant GO results saved to: /home/teresa/UU/Genome-Analysis/12_GO-Enrichment/go_enrichment_significant.csv
+
+=== CREATING VISUALIZATIONS ===
+Calculating semantic similarity matrix...
+Treemap visualization saved
+Scatter plot visualization saved
+
+=== SUMMARY ===
+Total genes analyzed: 767
+DEGs with GO annotations: 221
+Total GO terms found: 840
+Significant GO terms (Fisher p < 0.05): 31
+
+Top 10 significant GO terms:
+        GO.ID                                        Term Annotated Significant
+1  GO:0007005                  mitochondrion organization        15          10
+2  GO:0006366          transcription by RNA polymerase II        22          12
+3  GO:0051248 negative regulation of protein metabolic...         6           5
+4  GO:0010605 negative regulation of macromolecule met...        38          18
+5  GO:0033013              tetrapyrrole metabolic process        15           9
+6  GO:0033014           tetrapyrrole biosynthetic process        13           8
+7  GO:0045944 positive regulation of transcription by ...        11           7
+8  GO:0009892    negative regulation of metabolic process        43          19
+9  GO:0043086 negative regulation of catalytic activit...         9           6
+10 GO:0006357 regulation of transcription by RNA polym...        19          10
+   Fisher      padj
+1  0.0022 0.9862336
+2  0.0085 0.9862336
+3  0.0085 0.9862336
+4  0.0091 0.9862336
+5  0.0103 0.9862336
+6  0.0128 0.9862336
+7  0.0159 0.9862336
+8  0.0181 0.9862336
+9  0.0193 0.9862336
+10 0.0221 0.9862336
+
+[1] "============================================================"
+[1] "GO ENRICHMENT ANALYSIS COMPLETE"
+[1] "============================================================"
+[1] "Output directory:  /home/teresa/UU/Genome-Analysis/12_GO-Enrichment"
+[1] "============================================================"
+[1] "Analysis finished at:  2026-05-10 16:48:57"
+[ 2026-05-10 16:55:42 ] GO Enrichment Analysis Started
+Checking and installing required packages...
+Loading libraries...
+Libraries loaded successfully
+
+=== READING DATA ===
+DEGs loaded: 562 significant genes
+eggNOG annotations loaded: 1863 genes
+
+=== BUILDING GENE-TO-GO MAPPING ===
+Genes with GO annotations: 998
+Gene-to-GO mapping created for 767 genes
+
+=== CREATING topGO OBJECT ===
+Total unique GO terms: 4620
+DEGs in annotation set: 221
+topGO object created successfully
+
+=== RUNNING GO ENRICHMENT (Fisher's exact test) ===
+Significant GO terms (Fisher p < 0.05): 31
+
+=== EXPORTING RESULTS ===
+All GO results saved to: /home/teresa/UU/Genome-Analysis/12_GO-Enrichment/go_enrichment_all.csv
+Significant GO results saved to: /home/teresa/UU/Genome-Analysis/12_GO-Enrichment/go_enrichment_significant.csv
+
+=== CREATING VISUALIZATIONS ===
+Calculating semantic similarity matrix...
+Treemap visualization saved
+Reduced terms clusters: 30
+Unique clusters: 11
+Scatter plot visualization saved
+
+=== SUMMARY ===
+Total genes analyzed: 767
+DEGs with GO annotations: 221
+Total GO terms found: 840
+Significant GO terms (Fisher p < 0.05): 31
+
+Top 10 significant GO terms:
+        GO.ID                                        Term Annotated Significant
+1  GO:0007005                  mitochondrion organization        15          10
+2  GO:0006366          transcription by RNA polymerase II        22          12
+3  GO:0051248 negative regulation of protein metabolic...         6           5
+4  GO:0010605 negative regulation of macromolecule met...        38          18
+5  GO:0033013              tetrapyrrole metabolic process        15           9
+6  GO:0033014           tetrapyrrole biosynthetic process        13           8
+7  GO:0045944 positive regulation of transcription by ...        11           7
+8  GO:0009892    negative regulation of metabolic process        43          19
+9  GO:0043086 negative regulation of catalytic activit...         9           6
+10 GO:0006357 regulation of transcription by RNA polym...        19          10
+   Fisher      padj
+1  0.0022 0.9862336
+2  0.0085 0.9862336
+3  0.0085 0.9862336
+4  0.0091 0.9862336
+5  0.0103 0.9862336
+6  0.0128 0.9862336
+7  0.0159 0.9862336
+8  0.0181 0.9862336
+9  0.0193 0.9862336
+10 0.0221 0.9862336
+
+[1] "============================================================"
+[1] "GO ENRICHMENT ANALYSIS COMPLETE"
+[1] "============================================================"
+[1] "Output directory:  /home/teresa/UU/Genome-Analysis/12_GO-Enrichment"
+[1] "============================================================"
+[1] "Analysis finished at:  2026-05-10 16:56:22"

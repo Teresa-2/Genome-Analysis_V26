@@ -1,0 +1,57 @@
+[ 2026-05-08 21:25:11 ] DESeq2 Analysis Started
+Loading libraries...
+Libraries loaded successfully
+[1] "Counts matrix head:"
+   Control_1 Control_2 Control_3 Heat_1 Heat_2 Heat_3
+g1       173       190       129     83     59    156
+g2         0         0         0      3      0      1
+g3         0         0         0      0      0      0
+g4         5         8         6     18      1      5
+g5       164       278       233    210    134    161
+g6        15        19        16      8      0      8
+[1] "Total genes: 2027"
+[1] "Sample metadata:"
+             sample condition
+Control_1 Control_1   Control
+Control_2 Control_2   Control
+Control_3 Control_3   Control
+Heat_1       Heat_1      Heat
+Heat_2       Heat_2      Heat
+Heat_3       Heat_3      Heat
+[1] "Genes after filtering: 1704"
+[1] "DESeq2 results summary:"
+
+out of 1693 with nonzero total read count
+adjusted p-value < 0.1
+LFC > 0 (up)       : 338, 20%
+LFC < 0 (down)     : 352, 21%
+outliers [1]       : 0, 0%
+low counts [2]     : 0, 0%
+(mean count < 2)
+[1] see 'cooksCutoff' argument of ?results
+[2] see 'independentFiltering' argument of ?results
+
+NULL
+[1] "Results saved to: /proj/uppmax2026-1-61/nobackup/work/tede0387/11_Differential-Expression/deseq2_results_all.csv"
+[1] "Significant genes (padj<0.05): 562"
+[1] "Saved to: /proj/uppmax2026-1-61/nobackup/work/tede0387/11_Differential-Expression/deseq2_results_significant.csv"
+null device 
+          1 
+[1] "MA plot saved"
+null device 
+          1 
+[1] "Volcano plot saved"
+null device 
+          1 
+[1] "PCA plot saved"
+[1] "Heatmap saved"
+[1] "============================================================"
+[1] "DESeq2 ANALYSIS COMPLETE"
+[1] "============================================================"
+[1] "Total genes analyzed: 1704"
+[1] "Significant genes (padj<0.05): 562"
+[1] "Upregulated (Heat vs Control): 280"
+[1] "Downregulated (Heat vs Control): 282"
+[1] "\nOutput directory: /proj/uppmax2026-1-61/nobackup/work/tede0387/11_Differential-Expression"
+[1] "============================================================"
+[1] "Analysis finished at: 2026-05-08 21:25:24"
