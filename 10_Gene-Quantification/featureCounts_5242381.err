@@ -1,0 +1,86 @@
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.1.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 6 BAM files                                      ||
+||                                                                            ||
+||                           Control_1.sorted.bam                             ||
+||                           Control_2.sorted.bam                             ||
+||                           Control_3.sorted.bam                             ||
+||                           Heat_1.sorted.bam                                ||
+||                           Heat_2.sorted.bam                                ||
+||                           Heat_3.sorted.bam                                ||
+||                                                                            ||
+||             Output file : counts.txt                                       ||
+||                 Summary : counts.txt.summary                               ||
+||              Paired-end : yes                                              ||
+||        Count read pairs : yes                                              ||
+||              Annotation : braker.gtf (GTF)                                 ||
+||      Dir for temp files : /proj/uppmax2026-1-61/nobackup/work/tede0387 ... ||
+||                                                                            ||
+||                 Threads : 2                                                ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file braker.gtf ...                                        ||
+||    Features : 13365                                                        ||
+||    Meta-features : 1994                                                    ||
+||    Chromosomes/contigs : 34                                                ||
+||                                                                            ||
+|| Process BAM file Control_1.sorted.bam...                                   ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 21967767                                             ||
+||    Successfully assigned alignments : 1701587 (7.7%)                       ||
+||    Running time : 0.40 minutes                                             ||
+||                                                                            ||
+|| Process BAM file Control_2.sorted.bam...                                   ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 22183918                                             ||
+||    Successfully assigned alignments : 1474360 (6.6%)                       ||
+||    Running time : 0.39 minutes                                             ||
+||                                                                            ||
+|| Process BAM file Control_3.sorted.bam...                                   ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 23169572                                             ||
+||    Successfully assigned alignments : 1554796 (6.7%)                       ||
+||    Running time : 0.42 minutes                                             ||
+||                                                                            ||
+|| Process BAM file Heat_1.sorted.bam...                                      ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 22529767                                             ||
+||    Successfully assigned alignments : 1548176 (6.9%)                       ||
+||    Running time : 0.40 minutes                                             ||
+||                                                                            ||
+|| Process BAM file Heat_2.sorted.bam...                                      ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 21866255                                             ||
+||    Successfully assigned alignments : 1539096 (7.0%)                       ||
+||    Running time : 0.38 minutes                                             ||
+||                                                                            ||
+|| Process BAM file Heat_3.sorted.bam...                                      ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 22455869                                             ||
+||    Successfully assigned alignments : 1692635 (7.5%)                       ||
+||    Running time : 0.39 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/proj/uppmax2026-1-61/n  ||
+|| obackup/work/tede0387/10_Gene-Quantification/counts.txt.summary"           ||
+||                                                                            ||
+\\============================================================================//
+

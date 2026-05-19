@@ -1,0 +1,15 @@
+Status	/proj/uppmax2026-1-61/nobackup/work/tede0387/7_RNA-Mapping/updated_hisat2/bam/Control_1.sorted.bam	/proj/uppmax2026-1-61/nobackup/work/tede0387/7_RNA-Mapping/updated_hisat2/bam/Control_2.sorted.bam	/proj/uppmax2026-1-61/nobackup/work/tede0387/7_RNA-Mapping/updated_hisat2/bam/Control_3.sorted.bam	/proj/uppmax2026-1-61/nobackup/work/tede0387/7_RNA-Mapping/updated_hisat2/bam/Heat_1.sorted.bam	/proj/uppmax2026-1-61/nobackup/work/tede0387/7_RNA-Mapping/updated_hisat2/bam/Heat_2.sorted.bam	/proj/uppmax2026-1-61/nobackup/work/tede0387/7_RNA-Mapping/updated_hisat2/bam/Heat_3.sorted.bam
+Assigned	1701587	1474360	1554796	1548176	1539096	1692635
+Unassigned_Unmapped	19515161	20005367	20861742	20199917	19663878	20030054
+Unassigned_Read_Type	0	0	0	0	0	0
+Unassigned_Singleton	0	0	0	0	0	0
+Unassigned_MappingQuality	0	0	0	0	0	0
+Unassigned_Chimera	0	0	0	0	0	0
+Unassigned_FragmentLength	0	0	0	0	0	0
+Unassigned_Duplicate	0	0	0	0	0	0
+Unassigned_MultiMapping	445592	327909	402265	447936	382122	369754
+Unassigned_Secondary	0	0	0	0	0	0
+Unassigned_NonSplit	0	0	0	0	0	0
+Unassigned_NoFeatures	292775	364570	338641	321908	272698	350600
+Unassigned_Overlapping_Length	0	0	0	0	0	0
+Unassigned_Ambiguity	12652	11712	12128	11830	8461	12826
